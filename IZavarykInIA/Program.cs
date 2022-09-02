@@ -23,7 +23,7 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseRouting(); //исп маршрутиз
+app.UseRouting(); //исп маршрутизации
 
 app.UseAuthorization();
 
